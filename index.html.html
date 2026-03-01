@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>ภัสร์วรัญญ์บำรุงพงษ์</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@900&family=Sarabun:wght@700&family=Sriracha&display=swap" rel="stylesheet">
+
+<style>
+body{
+    background: linear-gradient(
+        180deg,
+        #dffcff 0%,
+        #c9f4ff 40%,
+        #eafcff 100%
+    );
+    text-align:center;
+    margin:0;
+    padding:40px 20px;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* 👑 หัวข้อหลัก (ยังอลังการได้ แต่ไม่เบลอ) */
+.main-name{
+    font-family:'Kanit', sans-serif;
+    font-size:52px;
+    font-weight:900;
+
+    background: linear-gradient(45deg,#ff0000,#ff6600,#ff1493);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:2px 2px 4px rgba(0,0,0,0.25); /* เงาคม */
+
+    margin-bottom:35px;
+}
+
+/* 🏫 โรงเรียน (แก้ไม่ให้เบลอ) */
+.lesson{
+    font-family:'Sarabun', sans-serif;
+    font-size:38px;
+    font-weight:700;
+
+    color:#0066cc;   /* ใช้สีจริงแทนไล่สี */
+
+    text-shadow:1px 1px 3px rgba(0,0,0,0.2); /* เงาคมบาง ๆ */
+
+    margin-bottom:25px;
+}
+
+/* 🎓 ชั้นเรียน */
+.class{
+    font-family:'Sriracha', cursive;
+    font-size:32px;
+    color:#0a8f3c;
+
+    text-shadow:1px 1px 2px rgba(0,0,0,0.15);
+
+    margin-bottom:40px;
+}
+
+hr{
+    width:60%;
+    border:2px solid #333;
+}
+
+/* เมนู */
+.menu{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+}
+
+/* ลูกศร */
+.menu .arrow{
+    width:220px;
+    transition:0.3s;
+}
+
+/* บ้าน */
+.menu .home{
+    width:260px;
+    transition:0.3s;
+}
+
+.menu img:hover{
+    transform:scale(1.15);
+}
+</style>
+</head>
+
+<body>
+
+<div class="main-name">
+การเรียนเขียนเว็บไซต์เบื้องต้น ด้วยภาษา HTML
+</div>
+
+<div class="lesson">
+โรงเรียนไทยรัฐวิทยา ๗
+</div>
+
+<div class="class">
+ชั้นมัธยมศึกษาปีที่ 5
+</div>
+
+<hr><br>
+
+<div class="menu">
+
+<a href="c1.jpg">
+    <img src="r15.GIF" class="arrow" alt="ลูกศรซ้าย">
+</a>
+
+<a href="กิจกรรม1.html">
+    <img src="home9.GIF" class="home" alt="หน้ากิจกรรม">
+</a>
+
+<a href="test1.html">
+    <img src="l4.GIF" class="arrow" alt="ลูกศรขวา">
+</a>
+
+</div>
+
+<br><br>
+
+</body>
+</html>
